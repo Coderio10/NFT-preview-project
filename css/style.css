@@ -1,0 +1,114 @@
+@media only screen  and (max-width:1440px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        background-color: hsl(217, 54%, 11%);
+        font-style: outfit;
+    }
+    .content{
+        background-color: hsl(216, 50%, 16%);
+        margin: 50px auto;
+        max-width: 24%;
+        border-radius: 10px;
+        max-height: auto;
+        font-size: 18px;
+        box-shadow: 6px 6px 6px 6px #0c1727;
+        font-style: satisfy;
+    }
+    .img{
+        width: 90%;
+        margin: 20px 15px;
+        float: center;
+        justify-items: center;
+    }
+    overlay{
+        cursor: pointer;
+        background: hsl(178, 100%, 50%);
+    }
+    overlay2{
+        cursor: pointer;
+        background: hsl(178, 100%, 50%);
+    }
+    .heading{
+        font-weight: 600;
+        color: hsl(0, 0%, 100%);
+        margin-left: 15px;
+        margin-bottom: 20px;
+    }
+    .heading:hover{
+        font-weight: 600;
+        color: hsl(178, 100%, 50%);
+        cursor: pointer;
+        margin-left: 15px;
+        margin-bottom: 20px;
+    }
+    .text{ 
+        color: hsl(215, 51%, 70%);
+        margin-left: 15px;  
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+    .section{
+        display: flex;
+        padding-bottom: 15px;
+    }
+    .secleft{
+        display: flex;
+        float: left;
+        margin: auto 15px;
+    }
+    .text2{
+        color: hsl(178, 100%, 50%);
+        margin-left: 5px;
+    }
+    .text3{
+       color: hsl(215, 51%, 70%);
+       margin-left: 5px; 
+    }
+    .secright{
+        display: flex;
+        float: right;
+        margin: auto 5%;
+        margin-left: 15%;
+
+    }
+    .section2{
+        display: flex;
+        margin-top: 15px;
+        margin-left: 15px;
+        align-items: center;
+        color: hsl(215, 51%, 70%);
+        padding-bottom: 20px;
+    }
+    .avatar{
+        width: 12%;
+        border: 1px solid hsl(0, 0%, 100%);
+        margin-right: 5px;
+        border-radius: 20px;
+    }
+    .text4{
+        color: hsl(215, 51%, 70%);
+    }
+    .text5{
+        color: #ffffff;
+        margin-left: 10px;
+    }
+    .text5:hover{
+        color: hsl(178, 100%, 50%);
+        margin-left: 10px;
+
+    }
+    .hr{
+        width: 90%;
+        height: 0.7px;
+        background-color: hsl(215, 51%, 70%);
+        margin: 2px auto;
+        color: hsla(215, 51%, 70%, 0.1);
+        border: 1px solid  hsl(215, 51%, 70%); 
+
+    }
+
+}
