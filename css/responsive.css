@@ -1,5 +1,4 @@
-/*RESPONSIVE STYLING phone view*/
-@media only screen and (min-width: 200px) {
+@media only screen and (max-width: 400px) {
     .content{
         background-color: hsl(216, 50%, 16%);
         margin: 50px auto;
@@ -7,8 +6,9 @@
         max-width: 80%;
         border-radius: 10px;
         max-height: auto;
-        font-size: 18px;
+        font-size: 14px;
         box-shadow: 6px 6px 6px 6px #0c1727;
+
     }
     .icon{
         height: 100%;
@@ -20,33 +20,3 @@
     }
 
 }
-   
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*}*/
